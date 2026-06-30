@@ -6,12 +6,19 @@
        http://www.springframework.org/schema/beans
        https://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="country"
-          class="com.cognizant.springlearn.model.Country">
-
+    <bean id="IN" class="com.cognizant.springlearn.model.Country">
         <property name="code" value="IN"/>
         <property name="name" value="India"/>
+    </bean>
 
+    <bean id="US" class="com.cognizant.springlearn.model.Country">
+        <property name="code" value="US"/>
+        <property name="name" value="United States"/>
+    </bean>
+
+    <bean id="JP" class="com.cognizant.springlearn.model.Country">
+        <property name="code" value="JP"/>
+        <property name="name" value="Japan"/>
     </bean>
 
 </beans>
