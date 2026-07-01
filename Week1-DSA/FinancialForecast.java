@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class financialForecast {
+public class FinancialForecast {
     public static double predictFutureValue(double presentValue,double growthRate,int years){
         if(years==0){
             return presentValue;
